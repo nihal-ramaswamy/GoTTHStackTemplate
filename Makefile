@@ -8,7 +8,7 @@ test: templ
 	@go test -v ./...
 
 templ:
-	@~/go/bin/templ generate
+	@templ generate
 
 clean:
 	@rm -rf bin
