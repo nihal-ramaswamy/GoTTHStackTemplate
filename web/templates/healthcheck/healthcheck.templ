@@ -1,0 +1,6 @@
+package healthcheck_templ
+
+templ HealthCheck() {
+	<p class="text-sm">HealthCheck OK</p>
+	<button hx-get="https://jsonplaceholder.typicode.com/todos/1" hx-trigger="click" hx-swap="outerHTML">Click Me</button>
+}
